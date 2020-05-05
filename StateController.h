@@ -11,6 +11,7 @@
 class StateController {
 
 public:
+  
   // FUNCTIONS:
   StateController(int numberOfSteps);
   StateController();
