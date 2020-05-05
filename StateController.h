@@ -13,6 +13,8 @@ class StateController {
 public:
   // FUNCTIONS:
   StateController(int numberOfSteps);
+  StateController();
+  void setNumberOfSteps(int numberOfSteps);
 
   void setStepMode();
   bool stepMode();

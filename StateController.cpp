@@ -10,9 +10,13 @@
 StateController::StateController(int numberOfSteps) {
   _numberOfSteps = numberOfSteps;
 }
+StateController::StateController() {}
 //***************************************************************************
 //LIBRARY FUNCTIONS:
 //***************************************************************************
+void StateController::setNumberOfSteps(int numberOfSteps){
+   _numberOfSteps = numberOfSteps;
+}
 
 void StateController::setAutoMode() {
   _autoMode = true;
